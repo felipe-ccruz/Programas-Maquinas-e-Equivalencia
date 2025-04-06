@@ -1,7 +1,4 @@
 public class Monolitico {
-    
-}
-public class Monolitico {
     private int input;
     private int n;
     private int k;
