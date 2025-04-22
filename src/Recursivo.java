@@ -1,32 +1,36 @@
 public class Recursivo {
-
     public int triplica(int n){
-
-        if (n!= 0){
-            n--;
-            n = triplica(n);
-            n++;
-            n++;
-            n++;
+        int a = n;
+        int b = 0;
+         
+        if (a!= 0){
+            a--;
+            b = triplica(a);
+            b++;
+            b++;
+            b++;
 
         } 
-        return n;
+        return b;
     }
 
     
 
     public int triplicaNaoEquivalente(int n){
+        int a = n;
+        int b = 0;
+
         if (n!= 0){
-            n--;
-            n = triplica(n);
-            n++;
-            n++;
-            n--;
-            n++;
-            n++;
+            a--;
+            b = triplica(a);
+            b++;
+            b++;
+            b--;
+            b++;
+            b++;
 
         } 
-        return n;
+        return b;
     }
 }
   
