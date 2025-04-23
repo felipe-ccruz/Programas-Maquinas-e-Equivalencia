@@ -29,12 +29,11 @@ Entrada: (R, ✓, 3)
 
 ### MONOLÍTICO
 ```
-R1: ler (a) vá para R2
-R2: Se a==0 então vá para Rx, senão vá para R3
-R3: Faça a_sub então vá para R4
+R1: Se a==0 então vá para Rx, senão vá para R2
+R2: Faça a_sub então vá para R3
+R3: Faça b_add então vá para R4
 R4: Faça b_add então vá para R5
-R5: Faça b_add então vá para R6
-R6: Faça b_add então vá para R2
+R5: Faça b_add então vá para R1
 ```
 
 ### INTERATIVO
